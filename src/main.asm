@@ -280,7 +280,7 @@ ChkNeighbors:
 .ChkTile:
 	moveq	#0,d7				; Get neighbord count
 	add.w	-$100-2(a1),d7			; Add in top left tile
-	add.w	-$100+0(a1),d7			; Add in tAdd in top middle tile
+	add.w	-$100+0(a1),d7			; Add in top middle tile
 	add.w	-$100+2(a1),d7			; Add in top right tile
 	add.w	$100-2(a1),d7			; Add in bottom left tile
 	add.w	$100+0(a1),d7			; Add in bottom middle tile
